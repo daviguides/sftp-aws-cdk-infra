@@ -25,6 +25,14 @@ The goal is to demonstrate AWS CDK in a practical portfolio use case, combining 
 - [SimpleSFTP](https://github.com/daviguides/SimpleSFTP)
 - [sftp2s3](https://github.com/daviguides/sftp2s3)
 
+## 🐳 Docker Image
+
+The SFTP server used in this project is available as a public Docker image:
+
+🔗 [daviguides/simple-sftp on Docker Hub](https://hub.docker.com/r/daviguides/simple-sftp)
+
+This image is automatically pulled and started on the EC2 instance during provisioning via `user_data`.
+
 ## 🚀 Getting Started
 
 ### Prerequisites
