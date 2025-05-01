@@ -1,20 +1,53 @@
-# Simple SFTP CDK Deployment
+# sftp-aws-cdk-infra
 
-This project uses AWS CDK (Python) to provision infrastructure for deploying a secure SFTP server (`SimpleSFTP`) integrated with an S3 upload workflow (`sftp2s3`).
+Infrastructure as Code using AWS CDK to deploy an SFTP server on EC2 integrated with S3 — combining automation, security, and scalability in a DevOps-friendly stack.
 
-## Components
+## 🧱 What It Does
 
-- VPC with public/private subnets
-- EC2 instance with SFTP setup
-- S3 bucket for file storage
-- IAM roles and policies
+This project provisions the following resources using AWS CDK (in Python):
 
-## Deployment
+- A VPC with public/private subnets
+- An S3 bucket for file storage
+- An IAM Role with access to S3
+- An EC2 instance to run the SFTP server (`SimpleSFTP`)
+- All necessary networking and security group settings
+
+The goal is to demonstrate AWS CDK in a practical portfolio use case, combining two existing components:
+
+- [`SimpleSFTP`](https://github.com/daviguides/SimpleSFTP)
+- [`sftp2s3`](https://github.com/daviguides/sftp2s3)
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.11+
+- [`uv`](https://github.com/astral-sh/uv) for dependency management (or use `pip` if preferred)
+- AWS CLI configured and credentials available
+
+### Install dependencies
 
 ```bash
-python3 -m venv .venv
+uv venv
 source .venv/bin/activate
-pip install -r requirements.txt
+uv pip install -e .
+
+Bootstrap and Deploy
+
 cdk bootstrap
 cdk deploy
-```
+
+🧩 Structure
+
+.
+├── README.md
+├── pyproject.toml
+├── app.py
+├── cdk.json
+└── sftp_stack/
+    ├── __init__.py
+    └── sftp_stack.py
+
+📄 License
+
+MIT License

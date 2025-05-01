@@ -1,0 +1,43 @@
+[project]
+name = "sftp-aws-cdk-infra"
+version = "0.1.0"
+description = "AWS CDK project to deploy a secure and automated SFTP-to-S3 infrastructure on AWS."
+authors = [
+  { name = "Davi Guides", email = "davi.guides@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Operating System :: OS Independent",
+  "Topic :: System :: Systems Administration",
+  "Topic :: Software Development :: Build Tools"
+]
+
+dependencies = [
+    "aws-cdk-lib>=2.193.0",
+    "constructs>=10.4.2",
+]
+
+[project.scripts]
+deploy = "app:main"
+
+[project.urls]
+"Homepage" = "https://github.com/daviguides/sftp-aws-cdk-infra"
+"Repository" = "https://github.com/daviguides/sftp-aws-cdk-infra"
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["sftp_stack"]
+
+[dependency-groups]
+dev = [
+  "ipdb>=0.13.13",
+  "pre-commit>=3.6.0",
+  "ruff>=0.4.4"
+]
