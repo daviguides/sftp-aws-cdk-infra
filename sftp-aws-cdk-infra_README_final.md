@@ -6,8 +6,6 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/status-experimental-yellow)
 
-<img src="images/architecture_diagram.png" alt="Diagram" align="right" style="width: 400px"/>
-
 Infrastructure as Code using AWS CDK to deploy an SFTP server on EC2 integrated with S3 — combining automation, security, and scalability in a DevOps-friendly stack.
 
 ## 🧱 What It Does
