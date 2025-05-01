@@ -1,12 +1,12 @@
-# sftp-aws-cdk-infra
+# Deploying a Secure SFTP-to-S3 Pipeline Using AWS CDK
 
-![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
+![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
 ![AWS CDK](https://img.shields.io/badge/AWS_CDK-v2.x-orange?logo=amazon-aws)
 ![Infrastructure as Code](https://img.shields.io/badge/IaC-CDK-informational)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/status-experimental-yellow)
 
-<img src="images/architecture_diagram.png" alt="Diagram" align="right" style="width: 400px"/>
+<img src="images/architecture_diagram.png" alt="Diagram" align="right" style="width: 400px; z-index:5;"/>
 
 Infrastructure as Code using AWS CDK to deploy an SFTP server on EC2 integrated with S3 — combining automation, security, and scalability in a DevOps-friendly stack.
 
