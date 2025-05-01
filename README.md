@@ -67,4 +67,8 @@ MIT License
 
 ---
 
-🔗 [Check out my full portfolio](https://github.com/daviguides)
+🔗 [Check out my full portfolio](https://daviguides.github.io/)
+
+📂 [Explore more repositories on GitHub](https://github.com/daviguides)
+
+📜 [Read the Zero Trust Manifesto for Local Development](https://daviguides.github.io/articles/devsecops/2025/04/25/zero-trust-manifest.html)
