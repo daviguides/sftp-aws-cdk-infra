@@ -27,8 +27,8 @@ The goal is to demonstrate AWS CDK in a practical portfolio use case, combining 
 
 ### 📌 Also See: EKS + DNS + React + CDK Demo
 > 🔗 [eks-ec2-cdk-react-dns-demo](https://github.com/daviguides/eks-ec2-cdk-react-dns-demo):  
-> Deploys an EKS cluster (EC2) via CDK, with Route 53 DNS and app containers.  
-> A natural next step: containerize and deploy the full Care Gateway stack to this cluster.
+> A more advanced CDK portfolio demo — provisions an EKS cluster with EC2 nodes, deploys containerized apps, and configures DNS via Route 53.  
+> Ideal for showcasing full-stack infrastructure skills alongside this SFTP pipeline.
 
 ## 🐳 Docker Image
 
