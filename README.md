@@ -25,6 +25,11 @@ The goal is to demonstrate AWS CDK in a practical portfolio use case, combining 
 - [SimpleSFTP](https://github.com/daviguides/SimpleSFTP)
 - [sftp2s3](https://github.com/daviguides/sftp2s3)
 
+### 📌 Also See: EKS + DNS + React + CDK Demo
+> 🔗 [eks-ec2-cdk-react-dns-demo](https://github.com/daviguides/eks-ec2-cdk-react-dns-demo):  
+> Deploys an EKS cluster (EC2) via CDK, with Route 53 DNS and app containers.  
+> A natural next step: containerize and deploy the full Care Gateway stack to this cluster.
+
 ## 🐳 Docker Image
 
 The SFTP server used in this project is available as a public Docker image:
@@ -80,3 +85,9 @@ MIT License
 📂 [Explore more repositories on GitHub](https://github.com/daviguides)
 
 📜 [Read the Zero Trust Manifesto for Local Development](https://daviguides.github.io/articles/devsecops/2025/04/25/zero-trust-manifest.html)
+
+---
+
+## 👨‍💼 Author
+
+Built with ❤️ by [Davi Luiz Guides](http://daviguides.github.io)
